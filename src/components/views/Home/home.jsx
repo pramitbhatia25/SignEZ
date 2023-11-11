@@ -9,19 +9,6 @@ function Home(props) {
     return <>
         <div className="page1">
             <Header setSignedIn={props.setSignedIn} signedIn={props.signedIn} openLogIn={props.openLogIn} closeLogIn={props.closeLogIn} openSignUp={props.openSignUp} closeSignUp={props.closeSignUp} />
-            <div className="sd">
-                <div className="ab">
-                    <div className="layer l1">
-                        Pramit
-                    </div>
-                    <div className="layer l2">
-                        <img src={imga} alt="sd"></img>
-                    </div>
-                    <div className="layer l3">
-                        Pramit
-                    </div>
-                </div>
-            </div>
             <div className={props.signedIn?"content signedincontent" : "content"}>
                 <div className={props.signedIn ? `hero_title signedintitle` : `hero_title`}>
                     {props.signedIn ?
