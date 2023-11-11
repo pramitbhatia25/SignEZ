@@ -1,0 +1,83 @@
+/* carousel.css */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    flex-direction: column;
+    height: 100%;
+}
+  
+  .carousel-slide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+  }
+  
+  .slide-inner {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-slide img {
+    border: 5px solid aqua;
+    border-radius: 20px;
+    max-width: 99%;
+    max-height: 100%;
+    transition: opacity 0.5s;
+    opacity: 0;
+  }
+  
+  .carousel-slide img.active {
+    opacity: 1;
+  }
+  
+  .prev-button, .next-button {
+    background-color: aqua;
+    color: black;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1;
+  }  
+    
+  .prev-button {
+    left: 20px;
+  }
+  
+  .next-button {
+    right: 20px;
+  }
+    
+  .inactive {
+    display: none;
+  }
+
+  /* Add this to your carousel.css */
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #007bff;
+  }
+  

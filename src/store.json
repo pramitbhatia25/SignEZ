@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Background Wallpaper 1",
+      "image": "https://i.pinimg.com/originals/0a/fe/39/0afe399b3f0a454632c7fea074a3f0cb.jpg",
+      "pointsRequired": 100
+    },
+    {
+      "name": "Background Wallpaper 2",
+      "image": "https://t4.ftcdn.net/jpg/05/72/82/85/360_F_572828530_ofzCYowQVnlOwkcoBJnZqT36klbJzWdn.jpg",
+      "pointsRequired": 100
+    },
+    {
+      "name": "Background Wallpaper 3",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8811aefc-d034-4834-a010-050d55a53fdb/d623jq4-8025c5d8-7b62-4414-9f7c-0c6bd8e3814b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg4MTFhZWZjLWQwMzQtNDgzNC1hMDEwLTA1MGQ1NWE1M2ZkYlwvZDYyM2pxNC04MDI1YzVkOC03YjYyLTQ0MTQtOWY3Yy0wYzZiZDhlMzgxNGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vaiSA_H3_pp96Ce5msO_Drh2qNlQ4105HIlCWL8s11E",
+      "pointsRequired": 200
+    },
+    {
+      "name": "Background Wallpaper 4",
+      "image": "https://coolthemestores.com/wp-content/uploads/2020/11/space-galaxy-features.jpg",
+      "pointsRequired": 200
+    },
+    {
+      "name": "Background Wallpaper 5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQC-UylMIVqfICMGQNjQ1lMKC6doa4Z123Hw&usqp=CAU",
+      "pointsRequired": 250
+    },
+    {
+      "name": "Background Wallpaper 6",
+      "image": "https://media.istockphoto.com/id/942550310/photo/alien-sea-and-sky.webp?b=1&s=170667a&w=0&k=20&c=qjJ_G9_kwMXlfFquvR9uUPxlmAnBMfA5zDk0J9olDNs=",
+      "pointsRequired": 250
+    }
+  ]

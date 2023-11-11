@@ -1,0 +1,133 @@
+.navbar {
+    width: 95vw;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5%;
+    overflow-x: hidden;
+  }
+  
+  .logo {
+    display: flex;
+    text-decoration: underline;
+  }
+  
+  .logo1 {
+    font-family: 'Anton';
+    font-size: 32px;
+    color: aqua;
+    margin: 0 5px 0 0;
+  }
+  
+  .logo2 {
+    font-family: 'Anton';
+    font-size: 32px;
+    color: white;
+    margin: 0 10px 0 0;
+  }
+  
+  .navs {
+    display: flex;
+  }
+  
+  .signup1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    margin: 0 15px;
+    border: 1px solid white;
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 5px;
+  }
+  
+  .login1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    color: white;
+    margin: 0 15px;
+  }
+  
+  .about1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    color: white;
+    margin: 0 15px;
+  }
+  
+  .account1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    margin: 0 20px;
+    border: 1px solid white;
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 5px;
+  }
+  
+  .hide_nav {
+    display: none;
+  }
+  
+  .about1:hover {
+    color: aqua;
+  }
+  
+  .login1:hover {
+    color: aqua;
+  }
+  
+  .signup1:hover {
+    color: black;
+  }
+  
+  .account1:hover {
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .login {
+    text-decoration: none;
+
+  }
+
+
+/* Modify the account menu */
+.account-menu {
+  height: fit-content;
+  position: absolute;
+  top: 8vh;
+  right: 4vw;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid aqua;
+  border-radius: 20px;
+  transition: max-height 0.3s ease-in-out;
+  z-index: 20;
+
+}
+
+.account-menu-item {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  margin: 5px 0;
+  transition: color 0.3s; /* Add a smooth transition for color change */
+}
+
+/* Modify the account menu item when hovered */
+.account-menu-item:hover {
+  color: aqua; /* Change the color when the item is hovered */
+}

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sd {
+  color: white;
+  border: 1px solid white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab {
+}
+
+.layer {
+  position: fixed;
+  top: 10px;
+  font-size: 200px;
+}
+
+.l1 {
+  -webkit-text-stroke: 1px white;
+  color: white;
+  z-index: 0;
+}
+
+.l2 {
+  z-index: 1;
+  animation: rotate 5s linear infinite;
+
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.l3 {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  z-index: 2;
+}
+
+
+.page1 {
+  height: 100vh;  
+  background-color: black;
+}
+
+.about_page {
+  height: 100vh;  
+  background-color: black;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+.hero_title {
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton';
+  font-size: 35px;
+  flex-direction: column;
+  background: linear-gradient(to bottom, white, white, aqua, aqua, aqua, aqua);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 5vw;
+}
+
+.about_hero {
+  height: fit-content;
+  margin: 0;
+  min-width: 70vw;
+  justify-content: center;
+  align-items: center;  
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scale {
+  0%, 20%, 50%, 80%, 100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2)
+  }
+  60% {
+    transform: scale(1)
+  }
+}
+
+.btns {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn_link {
+  text-decoration: none;
+}
+
+.btn1 {
+  margin: 0 10px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  font-family: 'Anton';
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.btn1:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.try_btn {
+  background-color: aqua;
+  color: black;
+  border: 1px solid black;
+  animation: scale 1.5s ease infinite;
+}
+
+.letter:hover {
+  color: aqua;
+  cursor: pointer;
+  animation: bounce 0.5s ease;
+}
+
+.content {
+  height: 90%;
+  width: 100vw;
+  background-image: url('../../../assets/images/hand-gesture-rock-roll-fingers-outline-against-background-linear-beams-design-posters-banners-logos-black-background-10-eps_565173-685.avif');
+  background-repeat: repeat ;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.7); /* Here, 0.5 sets the transparency to 50% */
+  background-blend-mode: multiply; /* You can use different blend modes for more advanced effects */
+}
+
+.about_content {
+  background-image: url('../../../assets/images/Screenshot\ 2023-10-16\ 172815.png');
+  justify-content: center;
+  text-align: center;
+}
+
+.gif_image {
+  height: 80vh;
+  width: 60vw;
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signedintitle {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.signedincontent {
+  background-color: rgb(0, 0, 0, 0.9);
+}
+
+.signedinbtns {
+  justify-content: center;
+}
+
+.subtext {
+  font-size: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.points {
+  color: aqua;
+  margin: 0px 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 730px) {
+  .hero_title {
+    font-size: 30px;
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+    width: 70vw;
+  }
+  
+  .gif_image {
+    margin-left: 0;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    width: 90vw;
+  }
+
+  .content {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about_hero {
+    width: 80vw;
+    height: fit-content;
+    font-size: 20px;
+  }
+
+  .signedintitle {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .subtext {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .btn1 {
+    font-size: 10px;
+  }
+  
+}

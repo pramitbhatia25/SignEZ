@@ -1,0 +1,189 @@
+.part1 {
+    height: 80vh;
+    border: 1px solid white;
+    width: 45vw;
+    margin: 0 2.5vw;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.part2 {
+    height: 80vh;
+    border: 1px solid white;
+    width: 15vw;
+    margin: 0 2.5vw;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.part3 {
+    height: 80vh;
+    border: 1px solid white;
+    width: 25vw;
+    margin: 0 2.5vw;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.p1_content {
+    width: 80%;
+    padding: 10% 10%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part_title {
+    background-color: aqua;
+    width: 99.9%;
+    border-radius: 20px 20px 0 0;
+    height: fit-content;
+    padding: 0.1%;
+    font-size: 20px;
+    color: black;
+    font-family: 'Anton';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1_info {
+    margin: 10px;
+    height: fit-content;
+    padding: 0.1%;
+    font-size: 20px;
+    color: aqua;
+    font-family: 'Anton';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat_page {
+    height: fit-content;
+    min-height: 90vh;
+    width: 100vw;
+    background-image: url('../../../assets/images/Screenshot\ 2023-10-16\ 172815.png');
+    background-repeat: repeat ;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Here, 0.5 sets the transparency to 50% */
+    background-blend-mode: multiply; /* You can use different blend modes for more advanced effects */
+}
+
+.p2_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3_content {
+    height: fit-content;
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stat_card {
+    width: 80%;
+    margin: 30px 10%;
+    height: fit-content;
+    min-height: 200px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px aqua; /* Add a shadow effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_card {
+    width: 80%;
+    margin: 30px 10%;
+    height: fit-content;
+    min-height: 200px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px aqua; /* Add a shadow effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_img {
+    height: 80%;
+    font-size: 10vh;
+    color: aqua;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.image_name {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: aqua;
+    color: black;
+    font-family: 'Anton';
+}
+
+.stat_num {
+    height: 80%;
+    font-size: 10vh;
+    color: aqua;
+}
+
+.stat_text {
+    height: 20%;
+    font-size: 2vh;
+    color: aqua;
+}
+
+@media only screen and (max-width: 900px) {
+    .stat_page {
+        flex-direction: column;
+    }
+
+    .part_title {
+        font-size: 15px;
+    }
+
+    .part1 {
+        height: fit-content;
+        min-height: 300px;
+        width: 90vw;        
+        margin: 20px;        
+    }
+    .part2 {
+        height: fit-content;
+        min-height: 500px;
+        width: 90vw;        
+        margin: 20px;        
+    }
+    .part3 {
+        height: fit-content;
+        min-height: 500px;
+        width: 90vw;        
+        margin: 20px;        
+    }
+}

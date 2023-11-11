@@ -1,0 +1,95 @@
+.store {
+    height: fit-content;
+    min-height: 90vh;
+    background-image: url('../../../assets/images/hand-gesture-rock-roll-fingers-outline-against-background-linear-beams-design-posters-banners-logos-black-background-10-eps_565173-685.avif');
+    background-repeat: repeat ;
+    background-position: center;
+  }
+
+  .points_total {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aqua;
+    background-color: rgb(0, 0, 0, 1);
+    font-size: 40px;
+  }
+
+  .card {
+    width: 20%; /* To ensure a maximum of 5 cards in a row */
+    margin: 2%; /* Add some margin between the cards */
+    min-width: 200px;
+    height: fit-content;
+    min-height: 20vh;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: rgb(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px); /* Apply a blur effect for the glassy look */
+    color: aqua;
+    font-family: 'Anton';
+}
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: rgba(0,0,0, 0.7); /* Aqua background with an alpha channel for the container */
+        padding: 20px;
+    }
+
+    .card-image {
+        width: 100%; /* Adjust the image size as needed */
+        height: 100%;
+        object-fit: cover;
+        margin: 10px 0;
+      }
+      
+      .card-text {
+        border: 1px solid white;
+        background-color: aqua;
+        color: black;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      points-required {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      
+      button {
+        border: 1px solid aqua;
+        background: black;
+        color: aqua;
+        margin: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      button:disabled {
+        background: rgb(44, 43, 43); /* Disable button color */
+        cursor: not-allowed;
+      }
+      
+      button:hover {
+        background: aqua;
+        color:black;
+      }
+
+
+
+      
+@media only screen and (max-width: 730px) {
+  .points_total {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+}
